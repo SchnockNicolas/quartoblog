@@ -1,0 +1,28 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/products/MMM/index.html",
+      "/products/TV Performance/index.html",
+      "/products/AB Tests/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/fr.html",
+    "items": []
+  },
+  {
+    "listing": "/products/index.html",
+    "items": [
+      "/products/MMM/index.html"
+    ]
+  },
+  {
+    "listing": "/products/products.html",
+    "items": [
+      "/products/MMM/index.html",
+      "/products/TV Performance/index.html",
+      "/products/AB Tests/index.html"
+    ]
+  }
+]

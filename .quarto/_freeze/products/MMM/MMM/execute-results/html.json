@@ -1,0 +1,14 @@
+{
+  "hash": "23b3111696d82d7c0a27ab39969adbaa",
+  "result": {
+    "markdown": "---\ntitle: \"Marketing Mix Modelling\"\nsubtitle: \"Measure effectiveness of media plans\"\nauthor: \n  - \"Nicolas Schnock\"\ndate: 2022-09-02\ncategories:\n  - Products\ntoc: true  \n# img: \"featured-photo.jpeg\"\n---\n\n\n\n\nTest\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

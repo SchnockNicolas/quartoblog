@@ -1,0 +1,75 @@
+---
+listing:
+  - id: posts-fr
+    contents: posts/fr/**/index.qmd
+    type: default
+    fields: [image, date, title, subtitle, categories, author, reading-time]
+    sort: "date desc"
+    categories: cloud
+    sort-ui: false
+    filter-ui: false
+    page-size: 3
+  - id: posts-en
+    contents: posts/en/**/index.qmd
+    type: default
+    fields: [image, date, title, subtitle, categories, author, reading-time]
+    sort: "date desc"
+    categories: cloud
+    sort-ui: false
+    filter-ui: false
+    page-size: 3
+  - id: products
+    contents: products/**/index.qmd
+    type: grid
+    fields: [image, title, subtitle]
+    sort: "date desc"
+    categories: cloud
+    sort-ui: false
+    filter-ui: false
+    page-size: 3   
+page-layout: full
+title-block-banner: false
+comments: false
+include-in-header: meta.html
+image: "illustration.png"
+toc: false
+---
+ 
+
+::: {.column-screen}
+![](illustration.png){width=100%}
+:::
+
+Lykta advises advertisers in media data management and media strategy optimisation. Our goal is to optimise  performance & effectiveness of advertising.
+
+## Who are we ?
+
+::: {.column-margin}
+![](whoarewe.png)
+:::
+
+
+Two media professionals partnered with a digital agency group (MTV Networks : MountainView, Clicktrust,..) to build solutions in media performance measurement.
+
+**Nicolas** is an expert in media strategy and data management. He worked in a media agency for 10 years where he managed the Insight & Data Team. He then worked 4 years  for BNP Paribas Fortis (Head of Media). Since 2017, Nicolas has been working on data project management for media agencies, media support and media networks.
+
+**Sonia** is an expert in digital performance and data media ecosystems. She has been working in different industries worldwide for 8 years (Cosmetics, Automotive, Banking & Insurance, Luxury).
+
+
+## Our products
+
+::: {#products}
+:::
+
+<a href="../products/products.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
+
+
+## Blog in english
+
+We deal with marketing & measurement topics. Those posts can interest you. 
+
+::: {#posts-en}
+:::
+
+<a href="../posts/fr.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all english posts</button></a>
+

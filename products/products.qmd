@@ -1,0 +1,17 @@
+---
+title: "Products"
+listing:
+  - id: products
+    contents: "*/*.qmd"
+    type: grid
+    fields: [image, title, subtitle]  
+    sort: "date desc"
+    # categories: cloud
+    sort-ui: false
+    filter-ui: false
+    page-size: 10
+---
+
+
+::: {#products}
+:::

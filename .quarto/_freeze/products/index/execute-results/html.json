@@ -1,0 +1,14 @@
+{
+  "hash": "87b8a858b7ed772f94e3d5bc3ed1e3a7",
+  "result": {
+    "markdown": "---\ntitle: \"Products\"\nformat:\n  html:\n    theme: default\n---\n\n::: {.cell}\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

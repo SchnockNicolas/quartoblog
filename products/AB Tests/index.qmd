@@ -1,0 +1,54 @@
+---
+title: "Geo AB Test"
+subtitle: "AB test on different geo zones"
+author: 
+  - "Nicolas Schnock"
+date: 2022-09-01
+categories:
+  - Products
+toc: true  
+image: "illustration.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+AB Tests are powerful tools to analyse the effectiness of a media plan. But it must follow defined steps to reach their goal. 
+
+# What are geo AB tests
+
+Well define a control group (= 1 or several geographical zones) and an exposed group. The control group won't see the ad. The exposed group will.
+
+We'll analyse results of both zones and see if the advertising has an impact on sales (or revenue).
+
+# Several steps
+
+If the process seems quite easy, we must take precautions
+
+## Design control & exposed groups.
+
+We'll design groups that look like each other. The temptation to take two different markets is high. But it can bias the analysis : if a external events occurs in one market and not on the other one, you can start all the process over again.
+Therefore we make sure both groups are comparable and homogeneus, to ensure we won't have biaises in the results.
+
+## Power of analysis
+
+We design a test plan, which contains
+- Length of test : few days? few weeks ? few months
+- Strengh of desired effects:  if you are looking a +100% effects on sales, the test will be pretty short, you'll know quickly if you can double your sales with a markting action. But if the effect is less obvious, you'll need a long period and a long exposition to be sure it's due to your marketing strategy.
+- budget needed : based on impressions and CPM, we'll deduct the minimal investment needed.
+
+
+## Modelisation of both groups
+
+We'll forecast data of both groups, first check the model is correct on the control, and secondly if real sales are increasing on the exposed.
+
+
+## Compute the increment
+
+When the test is over, we check results and deduct the incremental value of your marketing actions. It's time now to enlarge the actions on bigger scale.
+
+## Bonus : calibration of the Marketing Mix Model
+
+The insights found during a geo AB test can be used to calibrate MArketing Mix Model. It is a process that increases accuracy of the MMM, making both analysis very complementary.
+

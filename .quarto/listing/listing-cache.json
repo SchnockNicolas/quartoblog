@@ -1,0 +1,22 @@
+{
+  "listingMap": {
+    "index.qmd": [
+      "posts",
+      "posts/**/*.qmd",
+      "products/**/*.qmd",
+      "posts/**/index.qmd",
+      "products/**/index.qmd",
+      "posts/fr/**/index.qmd",
+      "posts/en/**/index.qmd"
+    ],
+    "posts/fr.qmd": [
+      "*/posts/*.qmd"
+    ],
+    "products/index.qmd": [
+      "*/*.qmd"
+    ],
+    "products/products.qmd": [
+      "*/*.qmd"
+    ]
+  }
+}

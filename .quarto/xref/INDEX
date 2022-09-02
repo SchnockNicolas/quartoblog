@@ -1,0 +1,35 @@
+{
+  "index.qmd": {
+    "index.html": "f1c59df6"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "08324a9c"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "6bd38fcb"
+  },
+  "about.qmd": {
+    "about.html": "985bd69b"
+  },
+  "posts/fr.qmd": {
+    "fr.html": "4aa2eb8d"
+  },
+  "products/index.qmd": {
+    "index.html": "0180732f"
+  },
+  "products/MMM/MMM.qmd": {
+    "MMM.html": "6afec579"
+  },
+  "products/MMM/index.qmd": {
+    "index.html": "2ee629ee"
+  },
+  "products/products.qmd": {
+    "products.html": "7a80c552"
+  },
+  "products/TV Performance/index.qmd": {
+    "index.html": "911a82da"
+  },
+  "products/AB Tests/index.qmd": {
+    "index.html": "d7dc426d"
+  }
+}
