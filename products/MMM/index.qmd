@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # What is Marketing Mix Modelling ?
 
-Marketing Mix Modelling uses statiscal analysis to correlate ("attribute") sales on media investments. Media Mix Modelling (MMM) is a powerfull tool when it comes to ** optimise a media or marketing strategy**.
+Marketing Mix Modelling uses statiscal analysis to correlate ("attribute") sales on media investments. Media Mix Modelling (MMM) is a powerful tool when it comes to **optimise a media or marketing strategy**.
 
 The most common oucome is an understanding of contribution and ROI of each channel (including offline) on sales. 
 
