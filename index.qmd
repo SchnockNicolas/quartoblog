@@ -17,7 +17,7 @@ listing:
     categories: cloud
     sort-ui: false
     filter-ui: false
-    page-size: 3
+    page-size: 10
   - id: products
     contents: products/**/index.qmd
     type: grid
@@ -71,5 +71,5 @@ We deal with marketing & measurement topics. Those posts can interest you.
 ::: {#posts-en}
 :::
 
-<a href="../posts/fr.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all english posts</button></a>
+<a href="../posts/en.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all english posts</button></a>
 

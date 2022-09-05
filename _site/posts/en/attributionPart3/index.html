@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.175">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Lykta - The curse of digital attribution.</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Lykta</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html">Contact us</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../products/products.html">Products</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">The curse of digital attribution.</h1>
+            <p class="subtitle lead">Part 3 : Security</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+<p>In part 1, we saw what is a cookie and problems how it impacted heavily privacy. It causes legal compliance problems, and bring a bias on collected data between <strong>10 and 40%</strong>, with big difference on mobile. In part 2, we saw that blocking trackers is easy, by using some browsers or protecting its own network (like big companies do). It concerns around <strong>30% of traffic</strong>.</p>
+<p>On this section, we’ll deal with the advertiser side, and what trackers involve in term of security both on IT and legal compliance.</p>
+<section id="it-security" class="level1">
+<h1>IT security</h1>
+</section>
+<section id="how-cookies-impact-it-security" class="level1 page-columns page-full">
+<h1>How cookies impact IT security</h1>
+<section id="fact-of-loading-javascript" class="level2">
+<h2 class="anchored" data-anchor-id="fact-of-loading-javascript">Fact of loading javascript</h2>
+</section>
+<section id="tag-managers-a-trojan-horse-in-the-website." class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="tag-managers-a-trojan-horse-in-the-website.">Tag managers : a Trojan horse in the website.</h2>
+<p>Governance issue : who controll &amp; decides what information can be shared ? IT architects or campaign experts/programmatic in media agencies ?</p>
+<section id="data-leaks" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="data-leaks">Data leaks</h3>
+<p><a href="https://homes.esat.kuleuven.be/~asenol/leaky-forms/">A study from KUL Leuven</a> audited 100 000 websites, and found that trackers leaked sign up details for 3% of them in Europe. Third party scripts scan information on forms, and collect information as email (and even password in some case).</p>
+<blockquote class="blockquote">
+<p>Our analyses show that users’ email addresses are exfiltrated to tracking, marketing and analytics domains before form submission and without giving consent on 1,844 websites in the EU crawl and 2, 950 websites in the US crawl.</p>
+</blockquote>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="KUL.png" class="img-fluid"></p>
+</div></div><p>Well known third parties (Taboola, Facebook) ar in the list of leakers.</p>
+<p><img src="top-sites.png" class="img-fluid"> Most advertiser don’t understand the third party code they put on their website, nor its effects on security of data. However, they are held responsible for processing of those data.</p>
+</section>
+</section>
+<section id="cname-hack-boursorama-case" class="level2">
+<h2 class="anchored" data-anchor-id="cname-hack-boursorama-case">CNAME hack : Boursorama case</h2>
+<p><a href="https://www.pixeldetracking.com/fr/boursorama-fuite-connexion">A blog</a> reveiled a security hole in the usage of adtrackers, putting at risk the access to banking website of 2 million users. How ?</p>
+<section id="what-is-the-cname-hack" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-the-cname-hack">What is the CNAME hack</h3>
+<p>To avoid ATP/ETP problems, Boursorama wanted to consider third party trackers like first party. It’s possible to do via their URL : putting a “CNAME” in the DNS (a link from boursorama to trackers’s domain). It’s like saying browsers “Google is a part of Boursorama, trust everything coming from Google like a Boursorama asset”. (The responsible who decided to apply this hack didn’t fully understand IT security or didn’t have trust issues).</p>
+<p>Safari, Firefox and adblockers consider the trackers behind boursorama.fr as first party, and therefore allow them.</p>
+</section>
+<section id="consequences" class="level3">
+<h3 class="anchored" data-anchor-id="consequences">Consequences</h3>
+<p>That means the adtech provider is considered as first party, and therefore has access to all first party cookies from Boursorama. Those first party cookies may include security informations like usernames, security tokens and other identifiers (this is the process that allows you to stay connected between two pages). In that case, those information were sent (leaked) to Smart Adserver, AT Internet and other adtech providers. People that have access to those information in Smart Adserver could log in to banking account of Boursorama</p>
+<p>If the temptation to consider “third party” trackers as first party is high (resolving the problem of adblocking and ITP/ETP), it has severe consequences on security.</p>
+</section>
+</section>
+</section>
+<section id="legal-security" class="level1">
+<h1>Legal security</h1>
+<p>Tracking brings also legal risks on the advertiser.</p>
+<section id="unilateral-contractualisation" class="level2">
+<h2 class="anchored" data-anchor-id="unilateral-contractualisation">Unilateral contractualisation</h2>
+<p>We can easily understand that Meta or Google can not make bilateral contracts with every advertiser. How many laywer would they need to contractualize with 10 million clients ? It means they provide a terms and condition that you must accept by clicking on a button.</p>
+<ul>
+<li>In the process, are really advertisers that accept those terms and conditions ? Or their agencies?</li>
+<li>Do they even read them ?</li>
+</ul>
+<div class="callout-note callout callout-style-simple callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+It is problematic for several reasons :
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>the code needs to be governed. Dependencies must be managed and regularly checked. Calling for gtag.js on a google server does not allow that governance.</li>
+<li>There is no legal protection. Or any service level agreement. If the tracker crashed the site or leak data, without any contract, there is no legal remediation possible.</li>
+</ul>
+</div>
+</div>
+<p>I personnally made the experience : the adtech provider didn’t renew its SSL certificate on a dependency of the tracker : the whole website of my employer was defined as “not secured” by every browsers, with a “your connection is not private” message. Without a balanced SLA, the provider is not obliged to fix the problem within an acceptable timeframe (“acceptable” can differ from industries), and the loss is for the advertiser</p>
+<p><img src="sslerror.png" class="img-fluid"></p>
+</section>
+<section id="a-problem-for-gdpr" class="level2">
+<h2 class="anchored" data-anchor-id="a-problem-for-gdpr">A problem for GDPR</h2>
+<p>A controller is by default responsible for the data processed in his name. In case of data breach, he must face consequences. To frame that problem, <strong>Art 28 of GDPR</strong> describes what a controller (advertiser) and processor (adtech company) must write in their contracts. The standard terms &amp; conditions have to be audited, and if necessary, negociated with the processor to include art 28’s clauses. In the case of GAFA’s, negociate contracts for a tracker is nearly impossible for most advertisers.</p>
+<p>Moreover, the pages which contain trackers must be chosen carefully. If they contain personnal data, trackers have access to them.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

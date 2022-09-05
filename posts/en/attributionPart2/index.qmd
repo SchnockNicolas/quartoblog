@@ -1,0 +1,51 @@
+---
+title: "The curse of digital attribution."
+subtitle: "Part 2 : ITP, ETP & ATT & adblocking"
+format:
+  html:
+    theme: default
+---
+
+In part 1, we saw what is a cookie and problems how it impacted heavily privacy. On this section, we'll deal with blocking
+
+# Adblocking by the browser
+
+## Safari's ITP
+
+## Apple's ATT
+
+## Firefox
+
+## Edge
+
+## Chrome
+
+
+
+# Adblocking by your local network
+
+If you're on a big company, odds are some websites won't be accessible. There is a "black list" of websites you can not access. Mostly for security reasons.
+Such system is call **DNS sinkhole**. You can install it at on your network for free. There are good sinkholes open source, my favorite is Pihole. https://pi-hole.net
+
+On my network, it blocks around 30% of requests done by my computer, smartphones and other connected devices : mostly telemetry and tracking. I loaded a list of around a millions URL which I request to block. 
+I have a complete control on what I white & black list with complete statistics.
+
+![](pihole.png)
+This technology prevents tracker script from loading on my computers/smartphones, plus it blocks HTTP requests to blacked list servers.
+
+As said, many businesses use those blocking on their website, for IT security reasons. Which makes complicated tracking for a significative part of traffic during the day.
+
+
+# Initiated by your device : adbockers
+
+Many add ons, apps, propose to block adds on your device. Adblock, purify,.. You're only one search away from the adblock of your dream.
+They are common, and have direct impact on digital attribution : those leads are purely invisibile.
+
+::: {.callout-note appearance="simple"}
+
+## Adblocks
+
+According to GWI, 37% of mobile users are using an adblocker. 39% for Chrome users in Europe.
+:::
+
+![](gwi.png)

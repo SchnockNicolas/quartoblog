@@ -137,7 +137,7 @@
     "href": "index.html#blog-in-english",
     "title": "Lykta",
     "section": "Blog in english",
-    "text": "Blog in english\nWe deal with marketing & measurement topics. Those posts can interest you.\n\n\n\n\n\nNo matching items\n\n\n See all english posts"
+    "text": "Blog in english\nWe deal with marketing & measurement topics. Those posts can interest you.\n\n\n\n\n  \n\n\n\n\nThe curse of digital attribution.\n\n\nPart 1 : data privacy\n\n\n\n\n\n\n4 min\n\n\n\n\n\n\n  \n\n\n\n\nThe curse of digital attribution.\n\n\nPart 2 : ITP, ETP & ATT & adblocking\n\n\n\n\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nThe curse of digital attribution.\n\n\nPart 3 : Security\n\n\n\n\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nThe curse of digital attribution.\n\n\nPart 4 : Marketing reasons\n\n\n\n\n\n\n4 min\n\n\n\n\n\n\nNo matching items\n\n\n See all english posts"
   },
   {
     "objectID": "index.html#blog-en-français",
@@ -222,5 +222,243 @@
     "title": "Geo AB Test",
     "section": "Design control & exposed groups.",
     "text": "Design control & exposed groups.\nWe’ll design groups that look like each other. The temptation to take two different markets is high. But it can bias the analysis : if a external events occurs in one market and not on the other one, you can start all the process over again. Therefore we make sure both groups are comparable and homogeneus, to ensure we won’t have biaises in the results."
+  },
+  {
+    "objectID": "posts/en/DigitalAttribution/index.html",
+    "href": "posts/en/DigitalAttribution/index.html",
+    "title": "The scam of digital attribution.",
+    "section": "",
+    "text": "Different types of cookie\nThere are two main types : HTTP cookies and Javascript cookies.\n\nHTTP Cookies are written during the loading of the page, they are defined in headers of the page you receive. You may recognize them by they “HTTP Only” parameter the cookie list. They transport server variables, and are more secured : they can not be read by general trackers. They generally manage authentification and loging process.\nJavascript cookies, are written by scripts added on the website. Often “third party” scripts, meaning partners of the website you visit. They are less secured. In fact, you can write a cookie on my website. In the developper tool, go to console and write document.cookie = \"username=John Doe\"; You’ll see a new cookie there (yes, on lykta.be!).\n\n\nAnother distinction is interesting : - First party cookies : cookies written by a script on the domain you visit. - Third party cookies: cookies written by a script on another domain. Most trackers are on that category.\nYou can visualise third party cookies via Firefox (former Lightbeam add on). You’ll realise most site you visit share the same trackers, and collect interesting data about you.\nBy abuse of language, we can also consider as cookies storage space in the browser:\n\nLocal storage\nSession storage\nIndexed Data base The objective is still the same : cache data to avoid asking always the same things to humain or servers.\n\nSome people call “cookies” the scripts you put on the website to track users (trackers). It is wrong, all javascript script don’t write cookies (they can send information to another server and store). But in marketing, it’s common to understand cookie, with trackers in extension, they will be included in the “cookie process” such as listing, consent request, storage and management.\n\n\nFirst problem with cookies : data privacy\nThe initial usage of cookies is acceptable : convenience. You don’t have to choose your language over and over again. Fine.\nBut with the tracking busines, cookies keep a track of what you visit. By accumulation, the tracking providers collect a lot of information about you. What you read, when, how much time. In some cases what you write, .. There is no limits to tracking, when dealing with cookies."
+  },
+  {
+    "objectID": "posts/en.html",
+    "href": "posts/en.html",
+    "title": "Posts EN",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/en/attributionPart2/index.html",
+    "href": "posts/en/attributionPart2/index.html",
+    "title": "The curse of digital attribution.",
+    "section": "",
+    "text": "In part 1, we saw what is a cookie and problems how it impacted heavily privacy. On this section, we’ll deal with blocking"
+  },
+  {
+    "objectID": "posts/en/attributionPart3/index.html",
+    "href": "posts/en/attributionPart3/index.html",
+    "title": "The curse of digital attribution.",
+    "section": "",
+    "text": "In part 1, we saw what is a cookie and problems how it impacted heavily privacy. It causes legal compliance problems, and bring a bias on collected data between 10 and 40%, with big difference on mobile. In part 2, we saw that blocking trackers is easy, by using some browsers or protecting its own network (like big companies do). It concerns around 30% of traffic.\nOn this section, we’ll deal with the advertiser side, and what trackers involve in term of security both on IT and legal compliance."
+  },
+  {
+    "objectID": "posts/en/attributionPart1/index.html",
+    "href": "posts/en/attributionPart1/index.html",
+    "title": "The curse of digital attribution.",
+    "section": "",
+    "text": "Why rely on cookie attribution is a bad idea in 2022 ? Digital attribution is the process by which advertisers have a view on which advertising investment drives growth. This process hasn’t change for about 15 years, and is today outdated. Those who trust those reports without questioning the process take business, security & legal risks. Why ? That’s the topic of that 5 posts series. This is the first, setting the scene and discussing about privacy."
+  },
+  {
+    "objectID": "posts/en/attributionPart1/index.html#leglislator-answer-to-privacy-problem",
+    "href": "posts/en/attributionPart1/index.html#leglislator-answer-to-privacy-problem",
+    "title": "The curse of digital attribution.",
+    "section": "Leglislator answer to privacy problem",
+    "text": "Leglislator answer to privacy problem\nEuropen legislator understood that problem perfectly and regulated a few times:\n\n2009 : cookies were tolerated but information must be sent to visitors via a pop up.\n2018 : GPDR - user consent is required for trackers. Despite the regulation don’t aim cookies, the word “cookie” is quoted only once for example purpose.\n? : E privacy regulation goes further in privacy protection an reiterate the need for consent."
+  },
+  {
+    "objectID": "posts/en/attributionPart4/index.html",
+    "href": "posts/en/attributionPart4/index.html",
+    "title": "The curse of digital attribution.",
+    "section": "",
+    "text": "Relying only on cookie-based attribution is like looking under a street light for a wallet you list on the other side the street because that’s where the light is\nIn part 1, we saw what is a cookie and problems how it impacted heavily privacy. It causes legal compliance problems, and bring a bias on collected data between 10 and 40%, with big difference on mobile. In part 2, we saw that blocking trackers is easy, by using some browsers or protecting its own network (like big companies do). It concerns around 30% of traffic. In part 3, we covered the risks of adding trackers on website, both on IT security and legal.\nIn this section, we’ll deal with inherent biases of digital attribution."
+  },
+  {
+    "objectID": "posts/en/attributionPart4/index.html#last-click",
+    "href": "posts/en/attributionPart4/index.html#last-click",
+    "title": "The curse of digital attribution.",
+    "section": "Last click",
+    "text": "Last click\nThis attribution models attributes the sale to the last channel recorded. An image worth a thousand words  The bias is obvious and goes against any strategy in marketing. But is still widely used in marketing reports."
+  },
+  {
+    "objectID": "posts/en/attributionPart4/index.html#other-rules",
+    "href": "posts/en/attributionPart4/index.html#other-rules",
+    "title": "The curse of digital attribution.",
+    "section": "Other rules",
+    "text": "Other rules"
+  },
+  {
+    "objectID": "posts/en/attributionPart4/index.html#black-box-of-data-driven-attribution",
+    "href": "posts/en/attributionPart4/index.html#black-box-of-data-driven-attribution",
+    "title": "The curse of digital attribution.",
+    "section": "Black box of Data driven attribution",
+    "text": "Black box of Data driven attribution\nData driven Attribution is often presented as the most accurate attribution model. It comes from the game theory, it looks in every combination of channels seen, which channel adds performance, compared to scenario the channel is absent (Shapley value). It not always indicated : it requires a large volume of conversions. And it to take or to leave : trust your attribution provider (which is also your entire adtech solution) and invest."
+  },
+  {
+    "objectID": "posts/en/attributionPart3/index.html#fact-of-loading-javascript",
+    "href": "posts/en/attributionPart3/index.html#fact-of-loading-javascript",
+    "title": "The curse of digital attribution.",
+    "section": "Fact of loading javascript",
+    "text": "Fact of loading javascript"
+  },
+  {
+    "objectID": "posts/en/attributionPart3/index.html#workarounds",
+    "href": "posts/en/attributionPart3/index.html#workarounds",
+    "title": "The curse of digital attribution.",
+    "section": "Workarounds",
+    "text": "Workarounds\nCName"
+  },
+  {
+    "objectID": "posts/en/attributionPart3/index.html#case-boursorama",
+    "href": "posts/en/attributionPart3/index.html#case-boursorama",
+    "title": "The curse of digital attribution.",
+    "section": "Case : boursorama",
+    "text": "Case : boursorama"
+  },
+  {
+    "objectID": "posts/en/attributionPart2/index.html#safaris-itp",
+    "href": "posts/en/attributionPart2/index.html#safaris-itp",
+    "title": "The curse of digital attribution.",
+    "section": "Safari’s ITP",
+    "text": "Safari’s ITP"
+  },
+  {
+    "objectID": "posts/en/attributionPart2/index.html#apples-att",
+    "href": "posts/en/attributionPart2/index.html#apples-att",
+    "title": "The curse of digital attribution.",
+    "section": "Apple’s ATT",
+    "text": "Apple’s ATT"
+  },
+  {
+    "objectID": "posts/en/attributionPart2/index.html#firefox",
+    "href": "posts/en/attributionPart2/index.html#firefox",
+    "title": "The curse of digital attribution.",
+    "section": "Firefox",
+    "text": "Firefox"
+  },
+  {
+    "objectID": "posts/en/attributionPart2/index.html#edge",
+    "href": "posts/en/attributionPart2/index.html#edge",
+    "title": "The curse of digital attribution.",
+    "section": "Edge",
+    "text": "Edge"
+  },
+  {
+    "objectID": "posts/en/attributionPart2/index.html#chrome",
+    "href": "posts/en/attributionPart2/index.html#chrome",
+    "title": "The curse of digital attribution.",
+    "section": "Chrome",
+    "text": "Chrome"
+  },
+  {
+    "objectID": "posts/en/attributionPart4/index.html#exclusion-of-offline",
+    "href": "posts/en/attributionPart4/index.html#exclusion-of-offline",
+    "title": "The curse of digital attribution.",
+    "section": "Exclusion of offline",
+    "text": "Exclusion of offline\nOf course, offline media are not tracked : exit television, radio, out of home, newspapers,.. Their performance and ROI are purefly forgotten.\nIn a phygital world, where online and offline are constantly mixing, a media performance evaluation SHOULD include those media. The barrier online/offline is not obvious for consumer, it should be taken into account by marketeers.\nMoreover, the digital attribution justifies the online/offline barrier within organisations and industry. There is a digital marketeer, talking to a digital agency, buying space to digital publishers. Which makes less and less sense and heratic for any consumer driven marketing.\n\nTo illustrate : think about adressable TV. Is it an offline or online medium ? The consumer isn’t even aware a “standard” TV commercial can be bought on an online process, on online-like audiences with online KPI’s but showed on a linear ad break. And yet, it’s the case. Same exists for DOOH, radio,…"
+  },
+  {
+    "objectID": "posts/en/attributionPart4/index.html#compare-pears-and-apples-we-compare-clicksimpressions-and-nothing.",
+    "href": "posts/en/attributionPart4/index.html#compare-pears-and-apples-we-compare-clicksimpressions-and-nothing.",
+    "title": "The curse of digital attribution.",
+    "section": "Compare pears and apples : we compare clicks,impressions and nothing.",
+    "text": "Compare pears and apples : we compare clicks,impressions and nothing.\nDigital tracking depends on channel used. Challenges are variate, so are solutions. But they must be taken into account.\n\nSome media are tracked at the impression level : for display or programmatic, there are things call impression tracker, which write a cookie each time an ad is displayed on the screen (seen or not), then this will be counted in the digital attribution.\nSome media does not have those “impression trackers” (or are complicated/expensive). The workaround is creating a “click tracker” : a page between the click and the landing page, where a cookie will be written only when the ad is clicked. Social networks often fall under that category.\nSome players are not tracked, such as Amazon Ads. If you have a product on your website and on Amazon, you can’t see cross overs : the impact of facebook ads on sales on Amazon.\n\nThe attribution will show a table, with leads attributed to impressions for display, to clicks for social networks, and not mentionning other walled gardens. More you’ll have digital channels, more biased your view will be."
+  },
+  {
+    "objectID": "posts/en/attributionPart4/index.html#retention-period",
+    "href": "posts/en/attributionPart4/index.html#retention-period",
+    "title": "The curse of digital attribution.",
+    "section": "Retention period",
+    "text": "Retention period"
+  },
+  {
+    "objectID": "posts/en/attributionPart1/index.html#leglislator-response-to-privacy-problem",
+    "href": "posts/en/attributionPart1/index.html#leglislator-response-to-privacy-problem",
+    "title": "The curse of digital attribution.",
+    "section": "Leglislator response to privacy problem",
+    "text": "Leglislator response to privacy problem\nEuropen legislator understood that problem perfectly and regulated a few times:\n\n2009 : cookies were tolerated but information must be sent to visitors via a pop up.\n2018 : GPDR - user consent is required for trackers. Despite the regulation don’t aim cookies, the word “cookie” is quoted only once for example purpose.\n? : E privacy regulation goes further in privacy protection an reiterate the need for consent."
+  },
+  {
+    "objectID": "posts/en/attributionPart4/index.html#retention-period-lower-than-consumer-decision-timeframe",
+    "href": "posts/en/attributionPart4/index.html#retention-period-lower-than-consumer-decision-timeframe",
+    "title": "The curse of digital attribution.",
+    "section": "Retention period lower than consumer decision timeframe",
+    "text": "Retention period lower than consumer decision timeframe\nDepending on the browser and business/legal choices, cookies are written the browser for a defined period. That period may be lower than the length of the consumer journey. It is particularly true for long decision journeys (cars, telco,..) Browsers such Firefox or Safari reduce this retention period to 1 or 7 days for third party trackers. In that case, the attribution is clearly biased."
+  },
+  {
+    "objectID": "posts/en/attributionPart4/index.html#rule-based-attributions",
+    "href": "posts/en/attributionPart4/index.html#rule-based-attributions",
+    "title": "The curse of digital attribution.",
+    "section": "Rule based attributions",
+    "text": "Rule based attributions\nYou can weight advertising “contacts” by their place or channel. U Shape (first and last), time decay (importance increasing with time),.. The choice makes the results."
+  },
+  {
+    "objectID": "posts/en/attributionPart4/index.html#data-driven-attribution",
+    "href": "posts/en/attributionPart4/index.html#data-driven-attribution",
+    "title": "The curse of digital attribution.",
+    "section": "Data driven attribution",
+    "text": "Data driven attribution\nData driven Attribution is often presented as the most accurate attribution model. It comes from the game theory, it looks in every combination of channels seen, which channel adds performance, compared to scenario the channel is absent (Shapley value). It not always indicated : it requires a large volume of conversions. And it to take or to leave : trust your attribution provider (which is also your entire adtech solution) and invest."
+  },
+  {
+    "objectID": "posts/en/attributionPart3/index.html#unilateral-contractualisation",
+    "href": "posts/en/attributionPart3/index.html#unilateral-contractualisation",
+    "title": "The curse of digital attribution.",
+    "section": "Unilateral contractualisation",
+    "text": "Unilateral contractualisation\nWe can easily understand that Meta or Google can not make bilateral contracts with every advertiser. How many laywer would they need to contractualize with 10 million clients ? It means they provide a terms and condition that you must accept by clicking on a button.\n\nIn the process, are really advertisers that accept those terms and conditions ? Or their agencies?\nDo they even read them ?\n\n\n\n\n\n\n\nIt is problematic for several reasons :\n\n\n\n\nthe code needs to be governed. Dependencies must be managed and regularly checked. Calling for gtag.js on a google server does not allow that governance.\nThere is no legal protection. Or any service level agreement. If the tracker crashed the site or leak data, without any contract, there is no legal remediation possible.\n\n\n\nI personnally made the experience : the adtech provider didn’t renew its SSL certificate on a dependency of the tracker : the whole website of my employer was defined as “not secured” by every browsers, with a “your connection is not private” message. Without a balanced SLA, the provider is not obliged to fix the problem within an acceptable timeframe (“acceptable” can differ from industries), and the loss is for the advertiser"
+  },
+  {
+    "objectID": "posts/en/attributionPart3/index.html#service-level-agreement",
+    "href": "posts/en/attributionPart3/index.html#service-level-agreement",
+    "title": "The curse of digital attribution.",
+    "section": "Service level agreement",
+    "text": "Service level agreement"
+  },
+  {
+    "objectID": "posts/en/attributionPart3/index.html#processor-is-responsible",
+    "href": "posts/en/attributionPart3/index.html#processor-is-responsible",
+    "title": "The curse of digital attribution.",
+    "section": "Processor is responsible",
+    "text": "Processor is responsible"
+  },
+  {
+    "objectID": "posts/en/attributionPart3/index.html#controller-is-responsible",
+    "href": "posts/en/attributionPart3/index.html#controller-is-responsible",
+    "title": "The curse of digital attribution.",
+    "section": "Controller is responsible",
+    "text": "Controller is responsible\nGDPR makes it very clear any way : the advertisor is the controller and therefore responsible for the processing of data. In case of"
+  },
+  {
+    "objectID": "posts/en/attributionPart3/index.html#a-problem-about-gdpr",
+    "href": "posts/en/attributionPart3/index.html#a-problem-about-gdpr",
+    "title": "The curse of digital attribution.",
+    "section": "A problem about GDPR",
+    "text": "A problem about GDPR\nGDPR makes it very clear any way : the advertisor is the controller and therefore responsible for the processing of data. GDPR requests"
+  },
+  {
+    "objectID": "posts/en/attributionPart3/index.html#a-problem-for-gdpr",
+    "href": "posts/en/attributionPart3/index.html#a-problem-for-gdpr",
+    "title": "The curse of digital attribution.",
+    "section": "A problem for GDPR",
+    "text": "A problem for GDPR\nA controller is by default responsible for the data processed in his name. In case of data breach, he must face consequences. To frame that problem, Art 28 of GDPR describes what a controller (advertiser) and processor (adtech company) must write in their contracts. The standard terms & conditions have to be audited, and if necessary, negociated with the processor to include art 28’s clauses. In the case of GAFA’s, negociate contracts for a tracker is nearly impossible for most advertisers.\nMoreover, the pages which contain trackers must be chosen carefully. If they contain personnal data, trackers have access to them."
+  },
+  {
+    "objectID": "posts/en/attributionPart3/index.html#tag-managers-a-troy-horse-in-the-website.",
+    "href": "posts/en/attributionPart3/index.html#tag-managers-a-troy-horse-in-the-website.",
+    "title": "The curse of digital attribution.",
+    "section": "Tag managers : a Troy horse in the website.",
+    "text": "Tag managers : a Troy horse in the website.\nGovernance issue : who controll & decides what information can be shared ? IT architects or campaign experts/programmatic in media agencies ?\n\nData leaks\nA study from KUL Leuven audited 100 000 websites, and found that trackers leaked sign up details for 3% of them in Europe. Third party scripts scan information on forms, and collect information as email (and even password in some case).\n\nOur analyses show that users’ email addresses are exfiltrated to tracking, marketing and analytics domains before form submission and without giving consent on 1,844 websites in the EU crawl and 2, 950 websites in the US crawl.\n\n\n\n\nWell known third parties (Taboola, Facebook) ar in the list of leakers.\n Most advertiser don’t understand the third party code they put on their website, nor its effects on security of data. However, they are held responsible for processing of those data."
+  },
+  {
+    "objectID": "posts/en/attributionPart3/index.html#cname-hack-boursorama-case",
+    "href": "posts/en/attributionPart3/index.html#cname-hack-boursorama-case",
+    "title": "The curse of digital attribution.",
+    "section": "CNAME hack : Boursorama case",
+    "text": "CNAME hack : Boursorama case\nA blog reveiled a security hole in the usage of adtrackers, putting at risk the access to banking website of 2 million users. How ?\n\nWhat is the CNAME hack\nTo avoid ATP/ETP problems, Boursorama wanted to consider third party trackers like first party. It’s possible to do via their URL : putting a “CNAME” in the DNS (a link from boursorama to trackers’s domain). It’s like saying browsers “Google is a part of Boursorama, trust everything coming from Google like a Boursorama asset”. (The responsible who decided to apply this hack didn’t fully understand IT security or didn’t have trust issues).\nSafari, Firefox and adblockers consider the trackers behind boursorama.fr as first party, and therefore allow them.\n\n\nConsequences\nThat means the adtech provider is considered as first party, and therefore has access to all first party cookies from Boursorama. Those first party cookies may include security informations like usernames, security tokens and other identifiers (this is the process that allows you to stay connected between two pages). In that case, those information were sent (leaked) to Smart Adserver, AT Internet and other adtech providers. People that have access to those information in Smart Adserver could log in to banking account of Boursorama\nIf the temptation to consider “third party” trackers as first party is high (resolving the problem of adblocking and ITP/ETP), it has severe consequences on security."
+  },
+  {
+    "objectID": "posts/en/attributionPart3/index.html#tag-managers-a-trojan-horse-in-the-website.",
+    "href": "posts/en/attributionPart3/index.html#tag-managers-a-trojan-horse-in-the-website.",
+    "title": "The curse of digital attribution.",
+    "section": "Tag managers : a Trojan horse in the website.",
+    "text": "Tag managers : a Trojan horse in the website.\nGovernance issue : who controll & decides what information can be shared ? IT architects or campaign experts/programmatic in media agencies ?\n\nData leaks\nA study from KUL Leuven audited 100 000 websites, and found that trackers leaked sign up details for 3% of them in Europe. Third party scripts scan information on forms, and collect information as email (and even password in some case).\n\nOur analyses show that users’ email addresses are exfiltrated to tracking, marketing and analytics domains before form submission and without giving consent on 1,844 websites in the EU crawl and 2, 950 websites in the US crawl.\n\n\n\n\nWell known third parties (Taboola, Facebook) ar in the list of leakers.\n Most advertiser don’t understand the third party code they put on their website, nor its effects on security of data. However, they are held responsible for processing of those data."
   }
 ]

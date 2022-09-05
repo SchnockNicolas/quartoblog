@@ -17,6 +17,10 @@
     ],
     "products/products.qmd": [
       "*/*.qmd"
+    ],
+    "posts/en.qmd": [
+      "*/posts/en/*.qmd",
+      "*/posts/en/**/index.qmd"
     ]
   }
 }

@@ -2,6 +2,10 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/en/attributionPart1/index.html",
+      "/posts/en/attributionPart2/index.html",
+      "/posts/en/attributionPart3/index.html",
+      "/posts/en/attributionPart4/index.html",
       "/products/MMM/index.html",
       "/products/TV Performance/index.html",
       "/products/AB Tests/index.html"
@@ -24,5 +28,9 @@
       "/products/TV Performance/index.html",
       "/products/AB Tests/index.html"
     ]
+  },
+  {
+    "listing": "/posts/en.html",
+    "items": []
   }
 ]

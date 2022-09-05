@@ -1,0 +1,82 @@
+---
+title: "The curse of digital attribution."
+subtitle: "Part 4 : Marketing reasons"
+format:
+  html:
+    theme: default
+---
+
+> Relying only on cookie-based attribution is like looking under a street light for a wallet you list on the other side the street because that's where the light is
+
+
+In part 1, we saw what is a cookie and problems how it impacted heavily privacy. It causes legal compliance problems, and bring a bias on collected data between **10 and 40%**, with big difference on mobile.
+In part 2, we saw that blocking trackers is easy, by using some browsers or protecting its own network (like big companies do). It concerns around **30% of traffic**.
+In part 3, we covered the risks of adding trackers on website, both on IT security and legal. 
+
+In this section, we'll deal with inherent biases of digital attribution. 
+
+# Cross browser - cross app
+
+Cookies and tracker only see what happens on a single browser. If you use two browsers (i.e. Facebook app is considered as a different browser than Chrome or Safari), you'll be seen as two users. If you convert on only one, all interactions you had on the other browser won't be counted.
+
+# Cross device
+
+Same happens on device : if the user converts on a desktop computer, all interactions on mobile are not counted. Who uses a single device, these days ?
+
+# Scope of attribution
+
+The data extracted by attribution model are not homogeneous. Huge biases are in place : between media, and within digital itself.
+
+## Exclusion of offline 
+
+Of course, offline media are not tracked : exit television, radio, out of home, newspapers,.. Their performance and ROI are purefly forgotten. 
+
+In a phygital world, where online and offline are constantly mixing, a media performance evaluation SHOULD include those media. The barrier online/offline is not obvious for consumer, it should be taken into account by marketeers.
+
+Moreover, the digital attribution justifies the online/offline barrier within organisations and industry. There is a digital marketeer, talking to a digital agency, buying space to digital publishers. Which makes less and less sense and heratic for any consumer driven marketing. 
+
+> To illustrate : think about adressable TV. Is it an offline or online medium ? The consumer isn't even aware a "standard" TV commercial can be bought on an online process, on online-like  audiences with online KPI's but showed on a linear ad break. And yet, it's the case. Same exists for DOOH, radio,...
+
+
+## Compare pears and apples : we compare clicks,impressions and nothing.
+
+Digital tracking depends on channel used. Challenges are variate, so are solutions. But they must be taken into account.
+
+- Some media are tracked at the impression level : for display or programmatic, there are things call impression tracker, which write a cookie each time an ad is displayed on the screen (seen or not), then this will be counted in the digital attribution. 
+- Some media does not have those "impression trackers" (or are complicated/expensive). The workaround is creating a "click tracker" :  a page between the click and the landing page, where a cookie will be written only when the ad is clicked. Social networks often fall under that category.
+- Some players are not tracked, such as Amazon Ads. If you have a product on your website and on Amazon, you can't see cross overs : the impact of facebook ads on sales on Amazon. 
+
+The attribution will show a table, with leads attributed to impressions for display, to clicks for social networks, and not mentionning other walled gardens. 
+More you'll have digital channels, more biased your view will be.
+
+
+## Retention period lower than consumer decision timeframe
+
+Depending on the browser and business/legal choices, cookies are written the browser for a defined period. That period may be lower than the length of the consumer journey. It is particularly true for long decision journeys (cars, telco,..)
+Browsers such Firefox or Safari reduce this retention period to 1 or 7 days for third party trackers. In that case, the attribution is clearly biased.
+
+# Choice of an Attribution model
+
+Once the data is collected to your attribution provided, algorithms are in place to attribute a sale to an ad. There is no right choice, and this one will define results.
+
+## Last click
+
+This attribution models attributes the sale to the last channel recorded. An image worth a thousand words
+![](lastclick.jpg)
+The bias is obvious and goes against any strategy in marketing. But is still widely used in marketing reports.
+
+## Rule based attributions
+
+You can weight advertising "contacts" by their place or channel. U Shape (first and last), time decay (importance increasing with time),.. The choice makes the results.
+
+##  Data driven attribution 
+
+Data driven Attribution is often presented as the most accurate attribution model. It comes from the game theory, it looks in every combination of channels seen, which channel adds performance, compared to scenario the channel is absent (Shapley value).
+It not always indicated : it requires a large volume of conversions.
+And it to take or to leave : trust your attribution provider (which is also your entire adtech solution) and invest. 
+
+# Server side tracking
+
+The solution of server side tracking is often quoted to resolve those issues. It is partially true. Server side tracking brings solutions and other problems to tracking. It will be treated in a future post.
+
+

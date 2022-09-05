@@ -31,5 +31,23 @@
   },
   "products/AB Tests/index.qmd": {
     "index.html": "d7dc426d"
+  },
+  "posts/en/DigitalAttribution/index.qmd": {
+    "index.html": "43691aa2"
+  },
+  "posts/en.qmd": {
+    "en.html": "b8783ac8"
+  },
+  "posts/en/attributionPart2/index.qmd": {
+    "index.html": "19c1a5ab"
+  },
+  "posts/en/attributionPart3/index.qmd": {
+    "index.html": "a1c8f00f"
+  },
+  "posts/en/attributionPart1/index.qmd": {
+    "index.html": "3ac02108"
+  },
+  "posts/en/attributionPart4/index.qmd": {
+    "index.html": "7f189387"
   }
 }
