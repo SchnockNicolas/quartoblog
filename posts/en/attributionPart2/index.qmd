@@ -6,19 +6,32 @@ format:
     theme: default
 ---
 
-In part 1, we saw what is a cookie and problems how it impacted heavily privacy. On this section, we'll deal with blocking
+In part 1, we saw privacy legislation prevented attribution to be correct, and brought a biais that can be as high as 65%. Here we deal with another biais.
 
 # Adblocking by the browser
 
-## Safari's ITP
+As privacy became an important topic, it became a "USP" for several browsers. Most known example of Safari and Firefox.
 
-## Apple's ATT
+![](dims.jpeg)
 
-## Firefox
+They block 3rd party cookies, with different levels and different techniques.
 
-## Edge
 
-## Chrome
+
+
+The combined usage of both in around 30% in France (21.52% + 7.94%). 40% in mobile.
+
+![](browsers.png)
+
+::: {.callout-note appearance="simple"}
+
+## Adblocking makes at least 30% of consumers invisible. 40% in mobile
+This is the combined market share of Safari & Firefox in France
+:::
+
+## Apps are also restricted
+
+Apple applied the App transparency framework. If the user opted out (or didn't opt in). It blocks the access of a "device ID" to trackers. The link between the ad and the sale can not be done properly.
 
 
 
@@ -49,3 +62,12 @@ According to GWI, 37% of mobile users are using an adblocker. 39% for Chrome use
 :::
 
 ![](gwi.png)
+
+
+# Make the count
+
+-> Around 30% of people are not measurable (the effect on mobile is even higher)
+-> On the rest, around of 30% uses adblocker
+
+Not measurable people are a significant part of Internet traffic. Again, type of browser bring an important biais on results.
+

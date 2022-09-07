@@ -137,7 +137,7 @@
     "href": "index.html#blog-in-english",
     "title": "Lykta",
     "section": "Blog in english",
-    "text": "Blog in english\nWe deal with marketing & measurement topics. Those posts can interest you.\n\n\n\n\n  \n\n\n\n\nThe curse of digital attribution.\n\n\nPart 1 : data privacy\n\n\n\n\n\n\n4 min\n\n\n\n\n\n\n  \n\n\n\n\nThe curse of digital attribution.\n\n\nPart 2 : ITP, ETP & ATT & adblocking\n\n\n\n\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nThe curse of digital attribution.\n\n\nPart 3 : Security\n\n\n\n\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nThe curse of digital attribution.\n\n\nPart 4 : Marketing reasons\n\n\n\n\n\n\n4 min\n\n\n\n\n\n\nNo matching items\n\n\n See all english posts"
+    "text": "Blog in english\nWe deal with marketing & measurement topics. Those posts can interest you.\n\n\n\n\n  \n\n\n\n\n5 curses of digital attribution.\n\n\nCurse 1 : data privacy\n\n\n\n\n\n\n5 min\n\n\n\n\n\n\n  \n\n\n\n\nThe curse of digital attribution.\n\n\nPart 2 : ITP, ETP & ATT & adblocking\n\n\n\n\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nThe curse of digital attribution.\n\n\nPart 3 : Security\n\n\n\n\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nThe curse of digital attribution.\n\n\nPart 4 : Marketing reasons\n\n\n\n\n\n\n4 min\n\n\n\n\n\n\nNo matching items\n\n\n See all english posts"
   },
   {
     "objectID": "index.html#blog-en-français",
@@ -242,7 +242,7 @@
     "href": "posts/en/attributionPart2/index.html",
     "title": "The curse of digital attribution.",
     "section": "",
-    "text": "In part 1, we saw what is a cookie and problems how it impacted heavily privacy. On this section, we’ll deal with blocking"
+    "text": "In part 1, we saw privacy legislation prevented attribution to be correct, and brought a biais that can be as high as 65%. Here we deal with another biais."
   },
   {
     "objectID": "posts/en/attributionPart3/index.html",
@@ -254,9 +254,9 @@
   {
     "objectID": "posts/en/attributionPart1/index.html",
     "href": "posts/en/attributionPart1/index.html",
-    "title": "The curse of digital attribution.",
+    "title": "5 curses of digital attribution.",
     "section": "",
-    "text": "Why rely on cookie attribution is a bad idea in 2022 ? Digital attribution is the process by which advertisers have a view on which advertising investment drives growth. This process hasn’t change for about 15 years, and is today outdated. Those who trust those reports without questioning the process take business, security & legal risks. Why ? That’s the topic of that 5 posts series. This is the first, setting the scene and discussing about privacy."
+    "text": "Cookie based attribution is crooked in 2022. In this series, we’ll explain 5 reasons why we need to work on an other measurement framework :"
   },
   {
     "objectID": "posts/en/attributionPart1/index.html#leglislator-answer-to-privacy-problem",
@@ -373,9 +373,9 @@
   {
     "objectID": "posts/en/attributionPart1/index.html#leglislator-response-to-privacy-problem",
     "href": "posts/en/attributionPart1/index.html#leglislator-response-to-privacy-problem",
-    "title": "The curse of digital attribution.",
+    "title": "5 curses of digital attribution.",
     "section": "Leglislator response to privacy problem",
-    "text": "Leglislator response to privacy problem\nEuropen legislator understood that problem perfectly and regulated a few times:\n\n2009 : cookies were tolerated but information must be sent to visitors via a pop up.\n2018 : GPDR - user consent is required for trackers. Despite the regulation don’t aim cookies, the word “cookie” is quoted only once for example purpose.\n? : E privacy regulation goes further in privacy protection an reiterate the need for consent."
+    "text": "Leglislator response to privacy problem\nNot a very long time ago, you could target one person for an ad. It even became a paradigm in communication plans, under the concept of “relevancy” : brand wanted to engage consumer in a personalized 1 to 1 communication.\nBut the industry went too far in this profiling. European legislator tried to regulate, with different tries :\n\n2009/136/CE : cookies were tolerated but user must receive clear and complete information (via pop ups)\nGPDR : user consent is required for trackers. Despite the regulation don’t aim cookies, the word “cookie” is quoted only once for example purpose.\nE-privacy directive reiterates the need for consent for cookies (and to write any information on user’s device). In opposite to GDPR, it applies whether cookies contains personal data or not."
   },
   {
     "objectID": "posts/en/attributionPart4/index.html#retention-period-lower-than-consumer-decision-timeframe",
@@ -460,5 +460,12 @@
     "title": "The curse of digital attribution.",
     "section": "Tag managers : a Trojan horse in the website.",
     "text": "Tag managers : a Trojan horse in the website.\nGovernance issue : who controll & decides what information can be shared ? IT architects or campaign experts/programmatic in media agencies ?\n\nData leaks\nA study from KUL Leuven audited 100 000 websites, and found that trackers leaked sign up details for 3% of them in Europe. Third party scripts scan information on forms, and collect information as email (and even password in some case).\n\nOur analyses show that users’ email addresses are exfiltrated to tracking, marketing and analytics domains before form submission and without giving consent on 1,844 websites in the EU crawl and 2, 950 websites in the US crawl.\n\n\n\n\nWell known third parties (Taboola, Facebook) ar in the list of leakers.\n Most advertiser don’t understand the third party code they put on their website, nor its effects on security of data. However, they are held responsible for processing of those data."
+  },
+  {
+    "objectID": "posts/en/attributionPart2/index.html#app-also-restricted",
+    "href": "posts/en/attributionPart2/index.html#app-also-restricted",
+    "title": "The curse of digital attribution.",
+    "section": "App also restricted",
+    "text": "App also restricted\nApple applied the App transparency framework. If the user opted out (or didn’t opt in). It blocks the access of a “device ID” to trackers. The link between the ad and the sale can not be done properly."
   }
 ]

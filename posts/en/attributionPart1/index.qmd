@@ -1,13 +1,25 @@
 ---
-title: "The curse of digital attribution."
-subtitle: "Part 1 : data privacy"
+title: "5 curses of digital attribution."
+subtitle: "Curse 1 : data privacy"
 format:
   html:
     theme: default
 ---
 
-Why rely on cookie attribution is a bad idea in 2022 ? Digital attribution is the process by which advertisers have a view on which advertising investment drives growth. This process hasn't change for about 15 years, and is today outdated. Those who trust those reports without questioning the process take business, security & legal risks. Why ? That's the topic of that 5 posts series. This is the first, setting the scene and discussing about privacy.
+Cookie based attribution is crooked in 2022. In this series, we'll explain 5 reasons why we need to work on an other measurement framework :
 
+1) **Data Privacy**
+2) Validity of data after adblocking (ITP/ETP/ATT included)
+3) Security : IT & legal at risk
+4) A consumer perspective
+5) GAFA & media agencies are judges and parties
+
+
+# Introduction 
+
+Digital attribution is the process by which advertisers see advertising investment drives growth and which does not. This process hasn't change for about 15 years. But most digital marketing decions are based on this outdated tool. 
+
+Privacy issue is not ethic, but questions the validity of attribution's results. Particularly since 2018, digital reports are importantly biased.
 
 # What are cookies ?
 
@@ -23,7 +35,7 @@ You can see them in the menu of your favorite browser, "more tools" - developper
 
 There are two main types : HTTP cookies and Javascript cookies. 
 
-- **HTTP Cookies** are written during the loading of the page, they are defined in headers of the page you receive. You may recognize them by they "HTTP Only" parameter the cookie list. They transport server variables, and are more secured : they can not be read by general trackers. They generally manage authentification and loging process.
+- **HTTP Cookies** are written during the loading of the page, they are defined in headers of the page you receive. You may recognize them by they "HTTP Only" parameter the cookie list. They transport server variables, and are more secured : they can not be read by general trackers. They generally manage authentification and loging process. 
 - **Javascript cookies**, are written by scripts added on the website. Often "third party" scripts, meaning partners of the website you visit. They are less secured. In fact, you can write a cookie on my website. In the developper tool, go to console and write `document.cookie = "username=John Doe";` You'll see a new cookie there (yes, on lykta.be!).
 
 ![](newcookie.png)
@@ -60,22 +72,22 @@ But for adtech purposed, cookies keep a track of what you visit. By accumulation
 But the same trackers are present on millions on website. And that's where privacy is mostly impacted. If a website knows you visit a page, it's not a big deal. But if a tracker knows you visited successively a medical forum, then on a contact medical center page, they can deduct your sick and what are your symptoms. They share that information with millions of potential advertisers (and their dozens of middle men) to sell ads at the higher cost. At that point, the privacy border is crossed for a long time.
 
 ![](lightbeam.jpeg)
-Most sites share the same trackers, and identifiers. All your history can be represented as a graph (here Lightbeam Firefox add on)
+Most sites share the same trackers, and identifiers. And therefore, your profile can be calculated by the accumulation of websites you visit. From adtech point of view, your browsing history can be represented as a graph.
 
 
 ## Leglislator response to privacy problem
 
-Europen legislator understood that problem perfectly and regulated a few times:
+ Not a very long time ago, you could target one person for an ad. It even became a paradigm in communication plans, under the concept of "relevancy" : brand wanted to engage consumer in a personalized 1 to 1 communication.
 
-- 2009 : cookies were tolerated but information must be sent to visitors via a pop up.
-- 2018 : GPDR - user consent is required for trackers. Despite the regulation don't aim cookies, the word "cookie" is quoted only once for example purpose.
-- ? : E privacy regulation goes further in  privacy protection an reiterate the need for consent.
+But the industry went too far in this profiling. European legislator tried to regulate, with different tries :
 
-# Consent & optin : implications on marketing
+- 2009/136/CE : cookies were tolerated but user must receive clear and complete information (via pop ups)
+- GPDR : user consent is required for trackers. Despite the regulation don't aim cookies, the word "cookie" is quoted only once for example purpose.
+- E-privacy directive reiterates the need for consent for cookies (and to write any information on user's device). In opposite to GDPR, it applies whether cookies contains personal data or not. 
 
-Since 2018, a consent is required to track users. “freely given, specific, informed and unambiguous”. 
+# Consent & opt in : implications on marketing
 
-Benchmarks are not clear about the opt in rate. It's also optimisable : structured companies constantly review their consent process to increase consents. 
+Since 2018, a consent is required to track users. “freely given, specific, informed and unambiguous”.  Benchmarks are not clear about the opt in rate. It's also optimisable : structured companies constantly review their consent process to increase consents. 
 From my experience, 75% seems reasonable (which is also what [https://www.commandersact.com/en/privacy-barometer-2019/](studies) say). But it's variable and depends on the public and the industry. The [https://iapp.org/news/a/yes-how-opt-in-consent-really-works/](IAPP) - a website for privacy professionnals - states 34% cookies opt in. 
 
 ::: {.callout-note appearance="simple"}
@@ -88,6 +100,5 @@ Consent hides from 10 to 75% of your soft or hard leads, depending on industry a
 
 Presence of a significant (variable and difficult manageable) discrepancy is a problem for digital attribution, and question by itself its validity to  estimate media performance without any complementary studies.
 
-
-Check for part 2 : adblocking and browser's privacy protection : ATP/ETP/ATT
+This is only a fraction of attribution's bias. Adblocking and browser's privacy protection (ATP/ETP/ATT) make it worst. Check for part II.
 

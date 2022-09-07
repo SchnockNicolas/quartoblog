@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lykta - The curse of digital attribution.</title>
+<title>Lykta - 5 curses of digital attribution.</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -95,8 +95,8 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">The curse of digital attribution.</h1>
-            <p class="subtitle lead">Part 1 : data privacy</p>
+      <h1 class="title">5 curses of digital attribution.</h1>
+            <p class="subtitle lead">Curse 1 : data privacy</p>
                       </div>
   </div>
     
@@ -118,7 +118,19 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Why rely on cookie attribution is a bad idea in 2022 ? Digital attribution is the process by which advertisers have a view on which advertising investment drives growth. This process hasn’t change for about 15 years, and is today outdated. Those who trust those reports without questioning the process take business, security &amp; legal risks. Why ? That’s the topic of that 5 posts series. This is the first, setting the scene and discussing about privacy.</p>
+<p>Cookie based attribution is crooked in 2022. In this series, we’ll explain 5 reasons why we need to work on an other measurement framework :</p>
+<ol type="1">
+<li><strong>Data Privacy</strong></li>
+<li>Validity of data after adblocking (ITP/ETP/ATT included)</li>
+<li>Security : IT &amp; legal at risk</li>
+<li>A consumer perspective</li>
+<li>GAFA &amp; media agencies are judges and parties</li>
+</ol>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>Digital attribution is the process by which advertisers see advertising investment drives growth and which does not. This process hasn’t change for about 15 years. But most digital marketing decions are based on this outdated tool.</p>
+<p>Privacy issue is not ethic, but questions the validity of attribution’s results. Particularly since 2018, digital reports are importantly biased.</p>
+</section>
 <section id="what-are-cookies" class="level1">
 <h1>What are cookies ?</h1>
 <p>Cookies are small text files stored on your browser. They are used to store data about you, the most often an identifier. It allows the server to recognise you (your browser) each time you connect.</p>
@@ -159,21 +171,21 @@ ul.task-list li input[type="checkbox"] {
 <p>The initial usage of cookies is acceptable : convenience. You don’t have to choose your language over and over again. Fine.</p>
 <p>But for adtech purposed, cookies keep a track of what you visit. By accumulation, the tracking providers collect a lot of information about you. What you read, when, how much time. It can evne capture what you write. The javascript can controll your browser (that’s the purpose of the langage). There are only few limits on tracking within a given website.</p>
 <p>But the same trackers are present on millions on website. And that’s where privacy is mostly impacted. If a website knows you visit a page, it’s not a big deal. But if a tracker knows you visited successively a medical forum, then on a contact medical center page, they can deduct your sick and what are your symptoms. They share that information with millions of potential advertisers (and their dozens of middle men) to sell ads at the higher cost. At that point, the privacy border is crossed for a long time.</p>
-<p><img src="lightbeam.jpeg" class="img-fluid"> Most sites share the same trackers, and identifiers. All your history can be represented as a graph (here Lightbeam Firefox add on)</p>
+<p><img src="lightbeam.jpeg" class="img-fluid"> Most sites share the same trackers, and identifiers. And therefore, your profile can be calculated by the accumulation of websites you visit. From adtech point of view, your browsing history can be represented as a graph.</p>
 <section id="leglislator-response-to-privacy-problem" class="level2">
 <h2 class="anchored" data-anchor-id="leglislator-response-to-privacy-problem">Leglislator response to privacy problem</h2>
-<p>Europen legislator understood that problem perfectly and regulated a few times:</p>
+<p>Not a very long time ago, you could target one person for an ad. It even became a paradigm in communication plans, under the concept of “relevancy” : brand wanted to engage consumer in a personalized 1 to 1 communication.</p>
+<p>But the industry went too far in this profiling. European legislator tried to regulate, with different tries :</p>
 <ul>
-<li>2009 : cookies were tolerated but information must be sent to visitors via a pop up.</li>
-<li>2018 : GPDR - user consent is required for trackers. Despite the regulation don’t aim cookies, the word “cookie” is quoted only once for example purpose.</li>
-<li>? : E privacy regulation goes further in privacy protection an reiterate the need for consent.</li>
+<li>2009/136/CE : cookies were tolerated but user must receive clear and complete information (via pop ups)</li>
+<li>GPDR : user consent is required for trackers. Despite the regulation don’t aim cookies, the word “cookie” is quoted only once for example purpose.</li>
+<li>E-privacy directive reiterates the need for consent for cookies (and to write any information on user’s device). In opposite to GDPR, it applies whether cookies contains personal data or not.</li>
 </ul>
 </section>
 </section>
-<section id="consent-optin-implications-on-marketing" class="level1">
-<h1>Consent &amp; optin : implications on marketing</h1>
-<p>Since 2018, a consent is required to track users. “freely given, specific, informed and unambiguous”.</p>
-<p>Benchmarks are not clear about the opt in rate. It’s also optimisable : structured companies constantly review their consent process to increase consents. From my experience, 75% seems reasonable (which is also what <a href="studies">https://www.commandersact.com/en/privacy-barometer-2019/</a> say). But it’s variable and depends on the public and the industry. The <a href="IAPP">https://iapp.org/news/a/yes-how-opt-in-consent-really-works/</a> - a website for privacy professionnals - states 34% cookies opt in.</p>
+<section id="consent-opt-in-implications-on-marketing" class="level1">
+<h1>Consent &amp; opt in : implications on marketing</h1>
+<p>Since 2018, a consent is required to track users. “freely given, specific, informed and unambiguous”. Benchmarks are not clear about the opt in rate. It’s also optimisable : structured companies constantly review their consent process to increase consents. From my experience, 75% seems reasonable (which is also what <a href="studies">https://www.commandersact.com/en/privacy-barometer-2019/</a> say). But it’s variable and depends on the public and the industry. The <a href="IAPP">https://iapp.org/news/a/yes-how-opt-in-consent-really-works/</a> - a website for privacy professionnals - states 34% cookies opt in.</p>
 <div class="callout-note callout callout-style-simple callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -188,7 +200,7 @@ Consent brings an important biais in cookie attribution.
 </div>
 </div>
 <p>Presence of a significant (variable and difficult manageable) discrepancy is a problem for digital attribution, and question by itself its validity to estimate media performance without any complementary studies.</p>
-<p>Check for part 2 : adblocking and browser’s privacy protection : ATP/ETP/ATT</p>
+<p>This is only a fraction of attribution’s bias. Adblocking and browser’s privacy protection (ATP/ETP/ATT) make it worst. Check for part II.</p>
 
 
 </section>
